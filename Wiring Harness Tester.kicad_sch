@@ -1,0 +1,507 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "32fe81dd-e925-4e0d-92aa-c3f4fe38e8bd")
+	(paper "A4")
+	(title_block
+		(title "Wiring Harness Tester")
+		(date "2025-07-30")
+		(rev "0.1")
+		(company " (ohr nyir)- אוֹר נִיר")
+		(comment 1 "Designed By - Jesupelumi")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 190.5 121.158)
+		(end 215.9 132.842)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 8 255 1)
+		)
+		(uuid 16b82dfa-11a9-477b-98bb-3c0154f51327)
+	)
+	(rectangle
+		(start 55.88 45.72)
+		(end 127 55.88)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 4 255 1)
+		)
+		(uuid 2dda0c83-5038-4dea-8105-c19cd2b462b9)
+	)
+	(rectangle
+		(start 248.92 45.72)
+		(end 259.08 88.9)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 4 255 1)
+		)
+		(uuid 47fbf351-6260-4734-a5d3-9477c76ab64b)
+	)
+	(rectangle
+		(start 88.646 121.158)
+		(end 114.3 132.842)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 6 255 1)
+		)
+		(uuid 84002af8-5423-408e-acf2-886a2bb3d8ed)
+	)
+	(rectangle
+		(start 45.72 45.72)
+		(end 55.88 88.9)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 4 255 1)
+		)
+		(uuid bb2258a9-4251-409d-9c80-bbab0e602654)
+	)
+	(rectangle
+		(start 177.8 45.72)
+		(end 248.92 55.88)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 4 255 1)
+		)
+		(uuid c99b6f72-1bc9-46ea-90a1-d30cec9ba930)
+	)
+	(rectangle
+		(start 146.558 76.2)
+		(end 158.242 88.9)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 4 255 1)
+		)
+		(uuid d0f7f3bb-c804-48e4-9648-0bd41741cef3)
+	)
+	(polyline
+		(pts
+			(xy 241.3 88.9) (xy 254 101.6)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "090f786c-7913-4851-9dce-33caf8ecaaf3")
+	)
+	(polyline
+		(pts
+			(xy 50.8 101.6) (xy 63.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 4 0 1)
+		)
+		(uuid "0fdc5652-c014-4022-90cc-f21d4c539c5f")
+	)
+	(polyline
+		(pts
+			(xy 228.6 127) (xy 215.9 114.3)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 4 0 1)
+		)
+		(uuid "0ff1888b-8393-4f93-8443-f81f6e84c4f1")
+	)
+	(polyline
+		(pts
+			(xy 241.3 88.9) (xy 266.7 88.9)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "2e83fb6d-8b78-426c-be4e-a9658a76aee7")
+	)
+	(polyline
+		(pts
+			(xy 177.8 127) (xy 190.5 139.7)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "2f0fc09d-47b4-49ad-b29f-ae1cc2311061")
+	)
+	(polyline
+		(pts
+			(xy 88.646 114.3) (xy 88.646 139.7)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "315c7e2f-f760-4e4e-86cd-d7b0d7a40f42")
+	)
+	(polyline
+		(pts
+			(xy 215.9 139.7) (xy 228.6 127)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 4 0 1)
+		)
+		(uuid "326c9c7f-0313-4f8c-b442-af7bad1f16dc")
+	)
+	(polyline
+		(pts
+			(xy 75.946 127) (xy 88.646 139.7)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "3ab278af-f487-4a6b-ad4f-55137bb679ee")
+	)
+	(polyline
+		(pts
+			(xy 139.7 88.9) (xy 165.1 88.9)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "3ed1b386-3231-448d-be2c-e430ffbb04e5")
+	)
+	(polyline
+		(pts
+			(xy 38.1 88.9) (xy 63.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 4 0 1)
+		)
+		(uuid "45626292-92c6-4fbf-9681-bef4a9a2e740")
+	)
+	(polyline
+		(pts
+			(xy 139.7 88.9) (xy 152.4 101.6)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "4734c499-3c4d-4328-aef9-e49a1ae07e61")
+	)
+	(polyline
+		(pts
+			(xy 190.5 114.3) (xy 190.5 139.7)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "73b6ba5e-1f24-4bcb-b5c9-25e075b165f4")
+	)
+	(polyline
+		(pts
+			(xy 38.1 88.9) (xy 50.8 101.6)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 4 0 1)
+		)
+		(uuid "949eeaab-91c2-49c1-acfd-45f4490ce41e")
+	)
+	(polyline
+		(pts
+			(xy 190.5 114.3) (xy 177.8 127)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "a425025e-31c6-47aa-af5a-d58b652f98a9")
+	)
+	(polyline
+		(pts
+			(xy 254 101.6) (xy 266.7 88.9)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "a6880a02-2962-4978-af54-614fc6ded4a8")
+	)
+	(polyline
+		(pts
+			(xy 127 127) (xy 114.3 114.3)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "d3a33ec7-80c4-4b94-8dfa-a65d0e593428")
+	)
+	(polyline
+		(pts
+			(xy 114.3 139.7) (xy 127 127)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "dde570fb-3e11-4a0b-bf1d-d6e3e596716d")
+	)
+	(polyline
+		(pts
+			(xy 114.3 139.7) (xy 114.3 114.3)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "ed20f856-5688-4a81-8efa-bfa2fc8b14f7")
+	)
+	(polyline
+		(pts
+			(xy 88.646 114.3) (xy 75.946 127)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "f0266c3f-49a7-4fe4-b19b-743d04f401d3")
+	)
+	(polyline
+		(pts
+			(xy 152.4 101.6) (xy 165.1 88.9)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "f23c9467-d1fb-4a1b-833b-9d3a448ab151")
+	)
+	(polyline
+		(pts
+			(xy 215.9 139.7) (xy 215.9 114.3)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 4 0 1)
+		)
+		(uuid "f4decdac-1a46-45c0-a16d-c90a2a46a2df")
+	)
+	(sheet
+		(at 127 25.4)
+		(size 50.8 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "55c8fa46-fb4e-4e35-85ba-da42d7a6a4ed")
+		(property "Sheetname" "Power Supplies"
+			(at 140.208 51.816 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "WHTPowerSupplies.kicad_sch"
+			(at 127 23.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Wiring Harness Tester"
+				(path "/32fe81dd-e925-4e0d-92aa-c3f4fe38e8bd"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.146 101.6)
+		(size 50.8 50.292)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "59679f24-c373-4bcb-9774-dea25961e9df")
+		(property "Sheetname" "GPIO Expander"
+			(at 37.846 129.54 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "WHTGPIOExpansion.kicad_sch"
+			(at 25.146 153.2386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Wiring Harness Tester"
+				(path "/32fe81dd-e925-4e0d-92aa-c3f4fe38e8bd"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 101.6)
+		(size 50.8 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "da842af6-c27a-40b6-803d-5ac80f894216")
+		(property "Sheetname" "Microcontroller"
+			(at 140.716 127.508 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "WHTMicrocontroller.kicad_sch"
+			(at 127 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Wiring Harness Tester"
+				(path "/32fe81dd-e925-4e0d-92aa-c3f4fe38e8bd"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 101.6)
+		(size 50.8 51.054)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f0cb196c-0ef5-42a1-b6b6-a82034acd10c")
+		(property "Sheetname" "GPS & MicroSD Card"
+			(at 237.236 128.016 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "WHTGPS&MicroSDCard.kicad_sch"
+			(at 228.6 153.2386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Wiring Harness Tester"
+				(path "/32fe81dd-e925-4e0d-92aa-c3f4fe38e8bd"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
