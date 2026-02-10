@@ -1,0 +1,4 @@
+Running: xsim.dir/ARCA_Logic_Array_Test_Bench_behav/xsimk.exe -simmode gui -wdb ARCA_Logic_Array_Test_Bench_behav.wdb -simrunnum 0 -socket 61973
+Design successfully loaded
+Design Loading Memory Usage: 9956 KB (Peak: 9956 KB)
+Design Loading CPU Usage: 77 ms

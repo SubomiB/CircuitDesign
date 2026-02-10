@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ARCA_Logic_Array_Test_Bench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ARCA_Logic_Array_Test_Bench" />
+            <top_module name="operations_array_custom_pack" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.001 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/ARCA_Logic_Array_Test_Bench/Ais" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Ais[0:3][2:0]</obj_property>
+      <obj_property name="ObjectShortName">Ais[0:3][2:0]</obj_property>
+      <obj_property name="label">A Input Vector</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARCA_Logic_Array_Test_Bench/Bis" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Bis[0:3][2:0]</obj_property>
+      <obj_property name="ObjectShortName">Bis[0:3][2:0]</obj_property>
+      <obj_property name="label">B Input Vector</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARCA_Logic_Array_Test_Bench/ADataFlow1is" type="array">
+      <obj_property name="ElementShortName">ADataFlow1is[0:1][0:0]</obj_property>
+      <obj_property name="ObjectShortName">ADataFlow1is[0:1][0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARCA_Logic_Array_Test_Bench/ADataFlow2is" type="array">
+      <obj_property name="ElementShortName">ADataFlow2is[0:1][0:0]</obj_property>
+      <obj_property name="ObjectShortName">ADataFlow2is[0:1][0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARCA_Logic_Array_Test_Bench/CDataFlow1is" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">CDataFlow1is[1:0]</obj_property>
+      <obj_property name="ObjectShortName">CDataFlow1is[1:0]</obj_property>
+      <obj_property name="label">COMP A input</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARCA_Logic_Array_Test_Bench/CDataFlow2is" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">CDataFlow2is[1:0]</obj_property>
+      <obj_property name="ObjectShortName">CDataFlow2is[1:0]</obj_property>
+      <obj_property name="label">COMP B input</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARCA_Logic_Array_Test_Bench/RDataFlow1is" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">RDataFlow1is[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RDataFlow1is[1:0]</obj_property>
+      <obj_property name="label">ROT A input</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARCA_Logic_Array_Test_Bench/RDataFlow2is" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">RDataFlow2is[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RDataFlow2is[1:0]</obj_property>
+      <obj_property name="label">ROT B input</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARCA_Logic_Array_Test_Bench/OpSelAis" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">OpSelAis[0:1][0:1]</obj_property>
+      <obj_property name="ObjectShortName">OpSelAis[0:1][0:1]</obj_property>
+      <obj_property name="label">ARITH Select (row 0), (row 1)</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARCA_Logic_Array_Test_Bench/OpSelCis" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">OpSelCis[0:1]</obj_property>
+      <obj_property name="ObjectShortName">OpSelCis[0:1]</obj_property>
+      <obj_property name="label">COMP Select (row 0, row 1)</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARCA_Logic_Array_Test_Bench/OpSelRis" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">OpSelRis[0:1]</obj_property>
+      <obj_property name="ObjectShortName">OpSelRis[0:1]</obj_property>
+      <obj_property name="label">ROT Select (row 0, row 1)</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARCA_Logic_Array_Test_Bench/ARCA_Logic_Array_Inst/Ys[0]" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0][0:3][2:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][0:3][2:0]</obj_property>
+      <obj_property name="label">Row 1 Outputs</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARCA_Logic_Array_Test_Bench/Yis" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Yis[0:3][2:0]</obj_property>
+      <obj_property name="ObjectShortName">Yis[0:3][2:0]</obj_property>
+      <obj_property name="label">Row 2 Outputs</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,5 @@
+CorrelationId: 6dc3aca1-7378-4b66-afdf-4582034c6b38
+UTC DateTime: 02/10/2026 18:43:54
+
+The following file/folder has not been downloaded
+0. ARCA_Logic_Array/ARCA_Logic_Array.sim/sim_1/behav/xsim/xsim.dir/ARCA_Logic_Array_Test_Bench_behav/xsimcrash.log
