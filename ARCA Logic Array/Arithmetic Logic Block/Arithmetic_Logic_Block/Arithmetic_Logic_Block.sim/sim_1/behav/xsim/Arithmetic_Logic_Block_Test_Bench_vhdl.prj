@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl2008 xil_defaultlib  \
+"../../../../Arithmetic_Logic_Block.srcs/sources_1/new/Operations_Array_Custom_Pack.vhd" \
+"../../../../Arithmetic_Logic_Block.srcs/sources_1/new/Arithmetic_Logic_Block.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../Arithmetic_Logic_Block.srcs/sim_1/new/Arithmetic_Logic_Block_Test_Bench.vhd" \
+
+# Do not sort compile order
+nosort

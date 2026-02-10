@@ -1,0 +1,12 @@
+
+{ 
+    crc :  6664527961297365488  , 
+    ccp_crc :  0  , 
+    cmdline : " --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Rotational_Logic_Block_Test_Bench_behav xil_defaultlib.Rotational_Logic_Block_Test_Bench" , 
+    buildDate : "Nov 14 2025" , 
+    buildTime : "19:37:27" , 
+    linkCmd : "C:\\AMDDesignTools\\2025.2\\Vivado\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/Rotational_Logic_Block_Test_Bench_behav/xsimk.exe\"   \"xsim.dir/Rotational_Logic_Block_Test_Bench_behav/obj/xsim_0.win64.obj\" \"xsim.dir/Rotational_Logic_Block_Test_Bench_behav/obj/xsim_1.win64.obj\" -L\"C:\\AMDDesignTools\\2025.2\\Vivado\\lib\\win64.o\" -lxv_simulator_kernel   -lxv_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

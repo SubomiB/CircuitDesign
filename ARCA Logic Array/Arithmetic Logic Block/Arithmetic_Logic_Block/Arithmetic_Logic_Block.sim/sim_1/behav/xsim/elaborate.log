@@ -1,0 +1,19 @@
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Arithmetic_Logic_Block_Test_Bench_behav xil_defaultlib.Arithmetic_Logic_Block_Test_Bench -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.operations_array_custom_pack
+Compiling package ieee.numeric_std
+Compiling package std.env
+Compiling architecture behavioral of entity xil_defaultlib.Arithmetic_Logic_Block [arithmetic_logic_block_default]
+Compiling architecture behavioral of entity xil_defaultlib.arithmetic_logic_block_test_benc...
+Built simulation snapshot Arithmetic_Logic_Block_Test_Bench_behav

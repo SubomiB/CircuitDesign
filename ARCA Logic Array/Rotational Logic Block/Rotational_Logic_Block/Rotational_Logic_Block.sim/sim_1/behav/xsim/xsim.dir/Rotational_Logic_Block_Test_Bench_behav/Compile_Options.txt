@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Rotational_Logic_Block_Test_Bench_behav" "xil_defaultlib.Rotational_Logic_Block_Test_Bench" -log "elaborate.log" 
