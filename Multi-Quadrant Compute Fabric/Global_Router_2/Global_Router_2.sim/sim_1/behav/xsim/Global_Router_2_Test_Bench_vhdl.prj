@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Global_Router_2.srcs/sources_1/new/Global_Router_2.vhd" \
+"../../../../Global_Router_2.srcs/sim_1/new/Global_Router_2_Test_Bench.vhd" \
+
+# Do not sort compile order
+nosort

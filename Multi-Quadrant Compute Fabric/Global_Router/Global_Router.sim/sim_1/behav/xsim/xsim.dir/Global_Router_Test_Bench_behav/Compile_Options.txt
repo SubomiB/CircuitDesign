@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Global_Router_Test_Bench_behav" "xil_defaultlib.Global_Router_Test_Bench" -log "elaborate.log" 

@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Overall_Design_Test_Bench_1_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Overall_Design_Test_Bench_1" />
+            <top_module name="operations_array_custom_pack" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="241.191 ns"></ZoomStartTime>
+      <ZoomEndTime time="388.158 ns"></ZoomEndTime>
+      <Cursor1Time time="351.982 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="151"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Global_Inst/Clock" type="logic">
+      <obj_property name="ElementShortName">Clock</obj_property>
+      <obj_property name="ObjectShortName">Clock</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider488">
+   </wvobject>
+   <wvobject fp_name="group443" type="group">
+      <obj_property name="label">Global Router</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Global_Inst/Read_Write_Enable_Global" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Read_Write_Enable_Global</obj_property>
+         <obj_property name="ObjectShortName">Read_Write_Enable_Global</obj_property>
+         <obj_property name="label">Global Router RW Enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Global_Inst/Stored_Data_Q" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Stored_Data_Q[0:15][7:0]</obj_property>
+         <obj_property name="ObjectShortName">Stored_Data_Q[0:15][7:0]</obj_property>
+         <obj_property name="label">Global Router Registers</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Global_Inst/Quadrant_0_In" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Quadrant_0_In[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Quadrant_0_In[7:0]</obj_property>
+         <obj_property name="label">Q0 Input</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Global_Inst/Quadrant_1_In" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Quadrant_1_In[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Quadrant_1_In[7:0]</obj_property>
+         <obj_property name="label">Q1 Input</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Global_Inst/Quadrant_2_In" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Quadrant_2_In[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Quadrant_2_In[7:0]</obj_property>
+         <obj_property name="label">Q2 Input</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Global_Inst/Quadrant_3_In" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Quadrant_3_In[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Quadrant_3_In[7:0]</obj_property>
+         <obj_property name="label">Q3 Input</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Global_Inst/Quadrant_0_Out" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Quadrant_0_Out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Quadrant_0_Out[7:0]</obj_property>
+         <obj_property name="label">Output to Q0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Global_Inst/Quadrant_1_Out" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Quadrant_1_Out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Quadrant_1_Out[7:0]</obj_property>
+         <obj_property name="label">Output to Q1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Global_Inst/Quadrant_2_Out" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Quadrant_2_Out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Quadrant_2_Out[7:0]</obj_property>
+         <obj_property name="label">Output to Q2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Global_Inst/Quadrant_3_Out" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Quadrant_3_Out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Quadrant_3_Out[7:0]</obj_property>
+         <obj_property name="label">Output to Q3</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider489">
+   </wvobject>
+   <wvobject fp_name="group471" type="group">
+      <obj_property name="label">Quadrant 0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst0/CU_RW_Enable" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">CU_RW_Enable</obj_property>
+         <obj_property name="ObjectShortName">CU_RW_Enable</obj_property>
+         <obj_property name="label">Q0 CU RW Enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst0/QR_Global_Write_Enable" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">QR_Global_Write_Enable</obj_property>
+         <obj_property name="ObjectShortName">QR_Global_Write_Enable</obj_property>
+         <obj_property name="label">Q0 Global RW Enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst0/Ext_In_A" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Ext_In_A[0:1][0:1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">Ext_In_A[0:1][0:1][7:0]</obj_property>
+         <obj_property name="label">External A Inputs</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst0/Ext_In_B" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Ext_In_B[0:1][0:1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">Ext_In_B[0:1][0:1][7:0]</obj_property>
+         <obj_property name="label">External B Inputs</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst0/Quadrant_OpSel" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Quadrant_OpSel[0:1][0:1]</obj_property>
+         <obj_property name="ObjectShortName">Quadrant_OpSel[0:1][0:1]</obj_property>
+         <obj_property name="label">Operations</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst0/Comp_Out" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Comp_Out[0:1][0:1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">Comp_Out[0:1][0:1][7:0]</obj_property>
+         <obj_property name="label">CU Outputs</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst0/Quadrant_Router_Inst/Stored_Data" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Stored_Data[0:15][7:0]</obj_property>
+         <obj_property name="ObjectShortName">Stored_Data[0:15][7:0]</obj_property>
+         <obj_property name="label">Q0 Router Registers</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst0/Global_Router_Input" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Global_Router_Input[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Global_Router_Input[7:0]</obj_property>
+         <obj_property name="label">Global Router Input</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst0/Global_Router_Output" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Global_Router_Output[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Global_Router_Output[7:0]</obj_property>
+         <obj_property name="label">Global Router Output</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst0/Q_Out_A" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Q_Out_A[0:1][0:1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">Q_Out_A[0:1][0:1][7:0]</obj_property>
+         <obj_property name="label">A Operands From QR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst0/Q_Out_B" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Q_Out_B[0:1][0:1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">Q_Out_B[0:1][0:1][7:0]</obj_property>
+         <obj_property name="label">B Operands From QR</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider490">
+   </wvobject>
+   <wvobject fp_name="group487" type="group">
+      <obj_property name="label">Quadrant 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst1/CU_RW_Enable" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">CU_RW_Enable</obj_property>
+         <obj_property name="ObjectShortName">CU_RW_Enable</obj_property>
+         <obj_property name="label">Q1 CU RW Enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst1/QR_Global_Write_Enable" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">QR_Global_Write_Enable</obj_property>
+         <obj_property name="ObjectShortName">QR_Global_Write_Enable</obj_property>
+         <obj_property name="label">Q1 Global RW Enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst1/Ext_In_A" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Ext_In_A[0:1][0:1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">Ext_In_A[0:1][0:1][7:0]</obj_property>
+         <obj_property name="label">External A Inputs</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst1/Ext_In_B" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Ext_In_B[0:1][0:1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">Ext_In_B[0:1][0:1][7:0]</obj_property>
+         <obj_property name="label">External B Inputs</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst1/Quadrant_OpSel" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Quadrant_OpSel[0:1][0:1]</obj_property>
+         <obj_property name="ObjectShortName">Quadrant_OpSel[0:1][0:1]</obj_property>
+         <obj_property name="label">Operations</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst1/Comp_Out" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Comp_Out[0:1][0:1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">Comp_Out[0:1][0:1][7:0]</obj_property>
+         <obj_property name="label">CU Outputs</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst1/Global_Router_Input" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Global_Router_Input[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Global_Router_Input[7:0]</obj_property>
+         <obj_property name="label">Global Router Input</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst1/Global_Router_Output" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Global_Router_Output[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Global_Router_Output[7:0]</obj_property>
+         <obj_property name="label">Global Router Output</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst1/Quadrant_Router_Inst/Stored_Data" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Stored_Data[0:15][7:0]</obj_property>
+         <obj_property name="ObjectShortName">Stored_Data[0:15][7:0]</obj_property>
+         <obj_property name="label">Q1 Router Registers</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst1/Q_Out_A" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Q_Out_A[0:1][0:1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">Q_Out_A[0:1][0:1][7:0]</obj_property>
+         <obj_property name="label">A Operands From QR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst1/Q_Out_B" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Q_Out_B[0:1][0:1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">Q_Out_B[0:1][0:1][7:0]</obj_property>
+         <obj_property name="label">B Operands From QR</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider491">
+   </wvobject>
+   <wvobject fp_name="group503" type="group">
+      <obj_property name="label">Quadrant 2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst2/CU_RW_Enable" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">CU_RW_Enable</obj_property>
+         <obj_property name="ObjectShortName">CU_RW_Enable</obj_property>
+         <obj_property name="label">Q2 CU RW Enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst2/QR_Global_Write_Enable" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">QR_Global_Write_Enable</obj_property>
+         <obj_property name="ObjectShortName">QR_Global_Write_Enable</obj_property>
+         <obj_property name="label">Q2 Global RW Enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst2/Ext_In_A" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Ext_In_A[0:1][0:1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">Ext_In_A[0:1][0:1][7:0]</obj_property>
+         <obj_property name="label">External A Inputs</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst2/Ext_In_B" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Ext_In_B[0:1][0:1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">Ext_In_B[0:1][0:1][7:0]</obj_property>
+         <obj_property name="label">External B Inputs</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst2/Quadrant_OpSel" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Quadrant_OpSel[0:1][0:1]</obj_property>
+         <obj_property name="ObjectShortName">Quadrant_OpSel[0:1][0:1]</obj_property>
+         <obj_property name="label">Operations</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst2/Comp_Out" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Comp_Out[0:1][0:1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">Comp_Out[0:1][0:1][7:0]</obj_property>
+         <obj_property name="label">CU Outputs</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst2/Global_Router_Input" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Global_Router_Input[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Global_Router_Input[7:0]</obj_property>
+         <obj_property name="label">Global Router Input</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst2/Global_Router_Output" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Global_Router_Output[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Global_Router_Output[7:0]</obj_property>
+         <obj_property name="label">Global Router Output</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst2/Quadrant_Router_Inst/Stored_Data" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Stored_Data[0:15][7:0]</obj_property>
+         <obj_property name="ObjectShortName">Stored_Data[0:15][7:0]</obj_property>
+         <obj_property name="label">Q2 Router Registers</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst2/Q_Out_A" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Q_Out_A[0:1][0:1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">Q_Out_A[0:1][0:1][7:0]</obj_property>
+         <obj_property name="label">A Operands From QR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst2/Q_Out_B" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Q_Out_B[0:1][0:1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">Q_Out_B[0:1][0:1][7:0]</obj_property>
+         <obj_property name="label">B Operands From QR</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider504">
+   </wvobject>
+   <wvobject fp_name="group515" type="group">
+      <obj_property name="label">Quadrant 3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst3/CU_RW_Enable" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">CU_RW_Enable</obj_property>
+         <obj_property name="ObjectShortName">CU_RW_Enable</obj_property>
+         <obj_property name="label">Q3 CU RW Enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst3/QR_Global_Write_Enable" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">QR_Global_Write_Enable</obj_property>
+         <obj_property name="ObjectShortName">QR_Global_Write_Enable</obj_property>
+         <obj_property name="label">Q3 Global RW Enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst3/Ext_In_A" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Ext_In_A[0:1][0:1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">Ext_In_A[0:1][0:1][7:0]</obj_property>
+         <obj_property name="label">External A Inputs</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst3/Ext_In_B" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Ext_In_B[0:1][0:1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">Ext_In_B[0:1][0:1][7:0]</obj_property>
+         <obj_property name="label">External B Inputs</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst3/Quadrant_OpSel" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Quadrant_OpSel[0:1][0:1]</obj_property>
+         <obj_property name="ObjectShortName">Quadrant_OpSel[0:1][0:1]</obj_property>
+         <obj_property name="label">Operations</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst3/Comp_Out" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Comp_Out[0:1][0:1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">Comp_Out[0:1][0:1][7:0]</obj_property>
+         <obj_property name="label">CU Outputs</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst3/Global_Router_Input" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Global_Router_Input[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Global_Router_Input[7:0]</obj_property>
+         <obj_property name="label">Global Router Input</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst3/Global_Router_Output" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Global_Router_Output[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Global_Router_Output[7:0]</obj_property>
+         <obj_property name="label">Global Router Output</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst3/Quadrant_Router_Inst/Stored_Data" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Stored_Data[0:15][7:0]</obj_property>
+         <obj_property name="ObjectShortName">Stored_Data[0:15][7:0]</obj_property>
+         <obj_property name="label">Q3 Router Registers</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst3/Q_Out_A" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Q_Out_A[0:1][0:1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">Q_Out_A[0:1][0:1][7:0]</obj_property>
+         <obj_property name="label">A Operands From QR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Overall_Design_Test_Bench_1/Overall_Design_Inst/Full_Quadrant_Inst3/Q_Out_B" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Q_Out_B[0:1][0:1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">Q_Out_B[0:1][0:1][7:0]</obj_property>
+         <obj_property name="label">B Operands From QR</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ojb0020/Downloads/EENG 5550 - Hardware Design Methodologies of FPGAs and ASICs/Project 1/Full_Computation_Block/Full_Computation_Block.srcs/sources_1/new/Full_Computation_Block.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Full_Computation_Block'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ojb0020/Downloads/EENG 5550 - Hardware Design Methodologies of FPGAs and ASICs/Project 1/Full_Computation_Block/Full_Computation_Block.srcs/sim_1/new/Full_Computation_Block_Test_Bench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Full_Block_Test_Bench'

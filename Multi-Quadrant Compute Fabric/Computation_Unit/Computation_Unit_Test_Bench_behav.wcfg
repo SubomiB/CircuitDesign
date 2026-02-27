@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Computation_Unit_Test_Bench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Computation_Unit_Test_Bench" />
+            <top_module name="operations_array_custom_pack" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="16.001 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="59"></NameColumnWidth>
+      <ValueColumnWidth column_width="100"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/Computation_Unit_Test_Bench/As" type="array">
+      <obj_property name="ElementShortName">As[7:0]</obj_property>
+      <obj_property name="ObjectShortName">As[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Computation_Unit_Test_Bench/Bs" type="array">
+      <obj_property name="ElementShortName">Bs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Bs[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Computation_Unit_Test_Bench/Ys" type="array">
+      <obj_property name="ElementShortName">Ys[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Ys[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Computation_Unit_Test_Bench/OpSels" type="other">
+      <obj_property name="ElementShortName">OpSels</obj_property>
+      <obj_property name="ObjectShortName">OpSels</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Computation_Unit_Test_Bench/d_w_c" type="other">
+      <obj_property name="ElementShortName">d_w_c</obj_property>
+      <obj_property name="ObjectShortName">d_w_c</obj_property>
+   </wvobject>
+</wave_config>

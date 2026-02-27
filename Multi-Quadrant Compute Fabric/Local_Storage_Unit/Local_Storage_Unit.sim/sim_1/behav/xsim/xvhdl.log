@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ojb0020/Downloads/EENG 5550 - Hardware Design Methodologies of FPGAs and ASICs/Project 1/Local_Storage_Unit/Local_Storage_Unit.srcs/sources_1/new/Local_Storage_Unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Local_Storage_Unit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ojb0020/Downloads/EENG 5550 - Hardware Design Methodologies of FPGAs and ASICs/Project 1/Local_Storage_Unit/Local_Storage_Unit.srcs/sim_1/new/Local_Storage_Unit_Test_Bench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Local_Storage_Unit_Test_Bench'

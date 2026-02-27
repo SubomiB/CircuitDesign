@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Full_Quadrant_Test_Bench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Full_Quadrant_Test_Bench" />
+            <top_module name="operations_array_custom_pack" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="118.375 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="191"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/Full_Quadrant_Test_Bench/Clocks" type="logic">
+      <obj_property name="ElementShortName">Clocks</obj_property>
+      <obj_property name="ObjectShortName">Clocks</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Quadrant_Test_Bench/Quadrant_RW_Enables" type="logic">
+      <obj_property name="ElementShortName">Quadrant_RW_Enables</obj_property>
+      <obj_property name="ObjectShortName">Quadrant_RW_Enables</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Quadrant_Test_Bench/Ext_In_As" type="array">
+      <obj_property name="ElementShortName">Ext_In_As[0:1][0:1][7:0]</obj_property>
+      <obj_property name="ObjectShortName">Ext_In_As[0:1][0:1][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Quadrant_Test_Bench/Ext_In_Bs" type="array">
+      <obj_property name="ElementShortName">Ext_In_Bs[0:1][0:1][7:0]</obj_property>
+      <obj_property name="ObjectShortName">Ext_In_Bs[0:1][0:1][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Quadrant_Test_Bench/Quadrant_OpSels" type="array">
+      <obj_property name="ElementShortName">Quadrant_OpSels[0:1][0:1]</obj_property>
+      <obj_property name="ObjectShortName">Quadrant_OpSels[0:1][0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Quadrant_Test_Bench/Global_Router_Inputs" type="array">
+      <obj_property name="ElementShortName">Global_Router_Inputs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Global_Router_Inputs[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Quadrant_Test_Bench/In_A_Sels" type="array">
+      <obj_property name="ElementShortName">In_A_Sels[0:1][0:1]</obj_property>
+      <obj_property name="ObjectShortName">In_A_Sels[0:1][0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Quadrant_Test_Bench/In_B_Sels" type="array">
+      <obj_property name="ElementShortName">In_B_Sels[0:1][0:1]</obj_property>
+      <obj_property name="ObjectShortName">In_B_Sels[0:1][0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Quadrant_Test_Bench/Router_Address_As" type="array">
+      <obj_property name="ElementShortName">Router_Address_As[0:3][3:0]</obj_property>
+      <obj_property name="ObjectShortName">Router_Address_As[0:3][3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Quadrant_Test_Bench/Router_Address_Bs" type="array">
+      <obj_property name="ElementShortName">Router_Address_Bs[0:3][3:0]</obj_property>
+      <obj_property name="ObjectShortName">Router_Address_Bs[0:3][3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Quadrant_Test_Bench/Router_Address_Globals" type="array">
+      <obj_property name="ElementShortName">Router_Address_Globals[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Router_Address_Globals[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Quadrant_Test_Bench/Global_Router_Outputs" type="array">
+      <obj_property name="ElementShortName">Global_Router_Outputs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Global_Router_Outputs[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Quadrant_Test_Bench/Full_Quadrant_Inst/Quadrant_Router_Inst/Stored_Data" type="array">
+      <obj_property name="ElementShortName">Stored_Data[0:15][7:0]</obj_property>
+      <obj_property name="ObjectShortName">Stored_Data[0:15][7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Quadrant_Test_Bench/d_w_c" type="other">
+      <obj_property name="ElementShortName">d_w_c</obj_property>
+      <obj_property name="ObjectShortName">d_w_c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Quadrant_Test_Bench/cols_c" type="other">
+      <obj_property name="ElementShortName">cols_c</obj_property>
+      <obj_property name="ObjectShortName">cols_c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Quadrant_Test_Bench/rows_c" type="other">
+      <obj_property name="ElementShortName">rows_c</obj_property>
+      <obj_property name="ObjectShortName">rows_c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Quadrant_Test_Bench/blocks_c" type="other">
+      <obj_property name="ElementShortName">blocks_c</obj_property>
+      <obj_property name="ObjectShortName">blocks_c</obj_property>
+   </wvobject>
+</wave_config>

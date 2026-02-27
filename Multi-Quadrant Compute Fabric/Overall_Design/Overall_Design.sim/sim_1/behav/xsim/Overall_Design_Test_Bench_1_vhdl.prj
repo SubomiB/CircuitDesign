@@ -1,0 +1,16 @@
+# compile vhdl design source files
+vhdl2008 xil_defaultlib  \
+"../../../../../Computation_Unit/Computation_Unit.srcs/sources_1/new/Operations_Array_Custom_Pack.vhd" \
+"../../../../../Local_Storage_Unit/Local_Storage_Unit.srcs/sources_1/new/Local_Storage_Unit.vhd" \
+"../../../../../Computation_Unit/Computation_Unit.srcs/sources_1/new/Computation_Unit.vhd" \
+"../../../../../CU_With_Local_Storage/CU_With_Local_Storage.srcs/sources_1/new/CU_With_Local_Storage.vhd" \
+"../../../../../Multiplexer_2_to_1/Multiplexer_2_to_1.srcs/sources_1/new/Multiplexer_2_to_1.vhd" \
+"../../../../../Full_Computation_Block/Full_Computation_Block.srcs/sources_1/new/Full_Computation_Block.vhd" \
+"../../../../../Quadrant_Router/Quadrant_Router.srcs/sources_1/new/Quadrant_Router.vhd" \
+"../../../../../Full_Quadrant/Full_Quadrant.srcs/sources_1/new/Full_Quadrant.vhd" \
+"../../../../../Global_Router/Global_Router.srcs/sources_1/new/Global_Router.vhd" \
+"../../../../Overall_Design.srcs/sources_1/new/Overall_Design.vhd" \
+"../../../../Overall_Design.srcs/sim_1/new/Overall_Design_Test_Bench_1.vhd" \
+
+# Do not sort compile order
+nosort

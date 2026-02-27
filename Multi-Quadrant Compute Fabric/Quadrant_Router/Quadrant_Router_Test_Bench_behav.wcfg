@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Quadrant_Router_Test_Bench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Quadrant_Router_Test_Bench" />
+            <top_module name="operations_array_custom_pack" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="36.426 ns"></ZoomEndTime>
+      <Cursor1Time time="20.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="191"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/Quadrant_Router_Test_Bench/Data_In_0s" type="array">
+      <obj_property name="ElementShortName">Data_In_0s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_In_0s[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Quadrant_Router_Test_Bench/Data_In_1s" type="array">
+      <obj_property name="ElementShortName">Data_In_1s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_In_1s[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Quadrant_Router_Test_Bench/Data_In_2s" type="array">
+      <obj_property name="ElementShortName">Data_In_2s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_In_2s[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Quadrant_Router_Test_Bench/Data_In_3s" type="array">
+      <obj_property name="ElementShortName">Data_In_3s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_In_3s[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Quadrant_Router_Test_Bench/Global_Router_Ins" type="array">
+      <obj_property name="ElementShortName">Global_Router_Ins[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Global_Router_Ins[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Quadrant_Router_Test_Bench/Quadrant_Router/Stored_Data" type="array">
+      <obj_property name="ElementShortName">Stored_Data[0:15][7:0]</obj_property>
+      <obj_property name="ObjectShortName">Stored_Data[0:15][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Quadrant_Router_Test_Bench/Q_Out_A0s" type="array">
+      <obj_property name="ElementShortName">Q_Out_A0s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Q_Out_A0s[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Quadrant_Router_Test_Bench/Q_Out_A1s" type="array">
+      <obj_property name="ElementShortName">Q_Out_A1s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Q_Out_A1s[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Quadrant_Router_Test_Bench/Q_Out_A2s" type="array">
+      <obj_property name="ElementShortName">Q_Out_A2s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Q_Out_A2s[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Quadrant_Router_Test_Bench/Q_Out_A3s" type="array">
+      <obj_property name="ElementShortName">Q_Out_A3s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Q_Out_A3s[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Quadrant_Router_Test_Bench/Q_Out_B0s" type="array">
+      <obj_property name="ElementShortName">Q_Out_B0s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Q_Out_B0s[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Quadrant_Router_Test_Bench/Q_Out_B1s" type="array">
+      <obj_property name="ElementShortName">Q_Out_B1s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Q_Out_B1s[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Quadrant_Router_Test_Bench/Q_Out_B2s" type="array">
+      <obj_property name="ElementShortName">Q_Out_B2s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Q_Out_B2s[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Quadrant_Router_Test_Bench/Q_Out_B3s" type="array">
+      <obj_property name="ElementShortName">Q_Out_B3s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Q_Out_B3s[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Quadrant_Router_Test_Bench/Global_Router_Outs" type="array">
+      <obj_property name="ElementShortName">Global_Router_Outs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Global_Router_Outs[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Quadrant_Router_Test_Bench/Address_As" type="array">
+      <obj_property name="ElementShortName">Address_As[0:3][3:0]</obj_property>
+      <obj_property name="ObjectShortName">Address_As[0:3][3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Quadrant_Router_Test_Bench/Address_Bs" type="array">
+      <obj_property name="ElementShortName">Address_Bs[0:3][3:0]</obj_property>
+      <obj_property name="ObjectShortName">Address_Bs[0:3][3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Quadrant_Router_Test_Bench/Address_Globals" type="array">
+      <obj_property name="ElementShortName">Address_Globals[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Address_Globals[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Quadrant_Router_Test_Bench/Read_Write_Enables" type="logic">
+      <obj_property name="ElementShortName">Read_Write_Enables</obj_property>
+      <obj_property name="ObjectShortName">Read_Write_Enables</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Quadrant_Router_Test_Bench/Global_Write_Enables" type="logic">
+      <obj_property name="ElementShortName">Global_Write_Enables</obj_property>
+      <obj_property name="ObjectShortName">Global_Write_Enables</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Quadrant_Router_Test_Bench/Clocks" type="logic">
+      <obj_property name="ElementShortName">Clocks</obj_property>
+      <obj_property name="ObjectShortName">Clocks</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Quadrant_Router_Test_Bench/d_w_c" type="other">
+      <obj_property name="ElementShortName">d_w_c</obj_property>
+      <obj_property name="ObjectShortName">d_w_c</obj_property>
+   </wvobject>
+</wave_config>

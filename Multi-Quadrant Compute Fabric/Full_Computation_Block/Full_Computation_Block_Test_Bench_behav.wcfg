@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Full_Block_Test_Bench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Full_Block_Test_Bench" />
+            <top_module name="operations_array_custom_pack" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="54.227 ns"></ZoomEndTime>
+      <Cursor1Time time="40.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="203"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/Full_Block_Test_Bench/In_A1s" type="array">
+      <obj_property name="ElementShortName">In_A1s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">In_A1s[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Block_Test_Bench/In_A2s" type="array">
+      <obj_property name="ElementShortName">In_A2s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">In_A2s[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Block_Test_Bench/In_B1s" type="array">
+      <obj_property name="ElementShortName">In_B1s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">In_B1s[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Block_Test_Bench/In_B2s" type="array">
+      <obj_property name="ElementShortName">In_B2s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">In_B2s[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Block_Test_Bench/Q_Out_Ys" type="array">
+      <obj_property name="ElementShortName">Q_Out_Ys[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Q_Out_Ys[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Block_Test_Bench/Clocks" type="logic">
+      <obj_property name="ElementShortName">Clocks</obj_property>
+      <obj_property name="ObjectShortName">Clocks</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Block_Test_Bench/Input_A_Sels" type="logic">
+      <obj_property name="ElementShortName">Input_A_Sels</obj_property>
+      <obj_property name="ObjectShortName">Input_A_Sels</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Block_Test_Bench/Input_B_Sels" type="logic">
+      <obj_property name="ElementShortName">Input_B_Sels</obj_property>
+      <obj_property name="ObjectShortName">Input_B_Sels</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Block_Test_Bench/ReadWrite_Enables" type="logic">
+      <obj_property name="ElementShortName">ReadWrite_Enables</obj_property>
+      <obj_property name="ObjectShortName">ReadWrite_Enables</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Block_Test_Bench/In_OpSels" type="other">
+      <obj_property name="ElementShortName">In_OpSels</obj_property>
+      <obj_property name="ObjectShortName">In_OpSels</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Block_Test_Bench/d_w_c" type="other">
+      <obj_property name="ElementShortName">d_w_c</obj_property>
+      <obj_property name="ObjectShortName">d_w_c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Block_Test_Bench/Full_Block/CU_With_local_Storage_Inst/Input_A_Local_Storage/Stored_Data" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Stored_Data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Stored_Data[7:0]</obj_property>
+      <obj_property name="label">Input A Stored Data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Block_Test_Bench/Full_Block/CU_With_local_Storage_Inst/Input_B_Local_Storage/Stored_Data" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Stored_Data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Stored_Data[7:0]</obj_property>
+      <obj_property name="label">Input B Stored Data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Full_Block_Test_Bench/Full_Block/CU_With_local_Storage_Inst/Output_Y_Local_Storage/Stored_Data" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Stored_Data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Stored_Data[7:0]</obj_property>
+      <obj_property name="label">Output Y Stored Data</obj_property>
+   </wvobject>
+</wave_config>

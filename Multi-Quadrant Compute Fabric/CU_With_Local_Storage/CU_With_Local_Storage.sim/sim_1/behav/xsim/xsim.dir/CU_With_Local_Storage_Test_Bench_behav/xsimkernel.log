@@ -1,0 +1,7 @@
+Running: xsim.dir/CU_With_Local_Storage_Test_Bench_behav/xsimk.exe -simmode gui -wdb CU_With_Local_Storage_Test_Bench_behav.wdb -simrunnum 0 -socket 60540
+Design successfully loaded
+Design Loading Memory Usage: 10788 KB (Peak: 10788 KB)
+Design Loading CPU Usage: 92 ms
+Simulation completed
+Simulation Memory Usage: 11576 KB (Peak: 11576 KB)
+Simulation CPU Usage: 108 ms

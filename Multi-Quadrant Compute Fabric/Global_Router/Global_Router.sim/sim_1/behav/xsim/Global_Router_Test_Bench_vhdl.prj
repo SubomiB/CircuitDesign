@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl2008 xil_defaultlib  \
+"../../../../../Computation_Unit/Computation_Unit.srcs/sources_1/new/Operations_Array_Custom_Pack.vhd" \
+"../../../../Global_Router.srcs/sources_1/new/Global_Router.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../Global_Router.srcs/sim_1/new/Global_Router_Test_Bench.vhd" \
+
+# Do not sort compile order
+nosort

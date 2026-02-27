@@ -1,0 +1,5 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ojb0020/Downloads/EENG 5550 - Hardware Design Methodologies of FPGAs and ASICs/Project 1/Computation_Unit/Computation_Unit.srcs/sources_1/new/Operations_Array_Custom_Pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ojb0020/Downloads/EENG 5550 - Hardware Design Methodologies of FPGAs and ASICs/Project 1/Computation_Unit/Computation_Unit.srcs/sources_1/new/Computation_Unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Computation_Unit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ojb0020/Downloads/EENG 5550 - Hardware Design Methodologies of FPGAs and ASICs/Project 1/Computation_Unit/Computation_Unit.srcs/sim_1/new/Computation_Unit_Test_Bench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Computation_Unit_Test_Bench'

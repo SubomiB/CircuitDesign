@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl2008 xil_defaultlib  \
+"../../../../../Computation_Unit/Computation_Unit.srcs/sources_1/new/Operations_Array_Custom_Pack.vhd" \
+"../../../../../Local_Storage_Unit/Local_Storage_Unit.srcs/sources_1/new/Local_Storage_Unit.vhd" \
+"../../../../../Computation_Unit/Computation_Unit.srcs/sources_1/new/Computation_Unit.vhd" \
+"../../../../CU_With_Local_Storage.srcs/sources_1/new/CU_With_Local_Storage.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../CU_With_Local_Storage.srcs/sim_1/new/CU_With_Local_Storage_Test_Bench.vhd" \
+
+# Do not sort compile order
+nosort

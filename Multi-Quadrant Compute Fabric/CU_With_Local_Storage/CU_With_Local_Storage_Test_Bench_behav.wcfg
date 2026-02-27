@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="CU_With_Local_Storage_Test_Bench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="CU_With_Local_Storage_Test_Bench" />
+            <top_module name="operations_array_custom_pack" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="40.001 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="211"></NameColumnWidth>
+      <ValueColumnWidth column_width="82"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/CU_With_Local_Storage_Test_Bench/Data_In_As" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Data_In_As[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_In_As[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="label">Data Input A</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CU_With_Local_Storage_Test_Bench/Data_In_Bs" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Data_In_Bs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_In_Bs[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="label">Data Input B</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CU_With_Local_Storage_Test_Bench/CU_With_Local_Storage/Input_A_Local_Storage/Stored_Data" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Stored_Data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Stored_Data[7:0]</obj_property>
+      <obj_property name="label">Input A Local Storage Output</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CU_With_Local_Storage_Test_Bench/CU_With_Local_Storage/Input_B_Local_Storage/Stored_Data" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Stored_Data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Stored_Data[7:0]</obj_property>
+      <obj_property name="label">Input B Local Storage Output</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CU_With_Local_Storage_Test_Bench/CU_With_Local_Storage/Computation_Unit/A" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">A[7:0]</obj_property>
+      <obj_property name="label">Computation Unit Input A</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CU_With_Local_Storage_Test_Bench/OpSels" type="other">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">OpSels</obj_property>
+      <obj_property name="ObjectShortName">OpSels</obj_property>
+      <obj_property name="label">Computation Unit Operation</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CU_With_Local_Storage_Test_Bench/CU_With_Local_Storage/Computation_Unit/B" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B[7:0]</obj_property>
+      <obj_property name="label">Computation Unit Input B</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CU_With_Local_Storage_Test_Bench/CU_With_Local_Storage/Computation_Unit/Y" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Y[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Y[7:0]</obj_property>
+      <obj_property name="label">Computation Unit Output</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CU_With_Local_Storage_Test_Bench/CU_With_Local_Storage/Output_Y_Local_Storage/Data_In" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Data_In[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_In[7:0]</obj_property>
+      <obj_property name="label">Output Y Local Storage Input</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CU_With_Local_Storage_Test_Bench/Q_Out_Ys" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Q_Out_Ys[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Q_Out_Ys[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="label">Output Y Local Storage Output</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CU_With_Local_Storage_Test_Bench/Clocks" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Clocks</obj_property>
+      <obj_property name="ObjectShortName">Clocks</obj_property>
+      <obj_property name="label">Clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CU_With_Local_Storage_Test_Bench/ReadWrite_Enables" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">ReadWrite_Enables</obj_property>
+      <obj_property name="ObjectShortName">ReadWrite_Enables</obj_property>
+      <obj_property name="label">Read/Write Enable Signal</obj_property>
+   </wvobject>
+</wave_config>
