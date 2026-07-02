@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Processing_Element_Test_Bench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Processing_Element_Test_Bench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="150.001 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="146"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/Processing_Element_Test_Bench/Clocks" type="logic">
+      <obj_property name="ElementShortName">Clocks</obj_property>
+      <obj_property name="ObjectShortName">Clocks</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processing_Element_Test_Bench/Resets" type="logic">
+      <obj_property name="ElementShortName">Resets</obj_property>
+      <obj_property name="ObjectShortName">Resets</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processing_Element_Test_Bench/Enables" type="logic">
+      <obj_property name="ElementShortName">Enables</obj_property>
+      <obj_property name="ObjectShortName">Enables</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processing_Element_Test_Bench/Clear_Accumulators" type="logic">
+      <obj_property name="ElementShortName">Clear_Accumulators</obj_property>
+      <obj_property name="ObjectShortName">Clear_Accumulators</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processing_Element_Test_Bench/Input_As" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Input_As[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Input_As[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="label">PE Input_As</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processing_Element_Test_Bench/Input_Bs" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Input_Bs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Input_Bs[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="label">PE Input_Bs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processing_Element_Test_Bench/PE_Inst/MAC_Unit_Inst/Input_A" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Input_A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Input_A[7:0]</obj_property>
+      <obj_property name="label">MAC Input_A</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processing_Element_Test_Bench/PE_Inst/MAC_Unit_Inst/Input_B" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Input_B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Input_B[7:0]</obj_property>
+      <obj_property name="label">MAC Input_B</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processing_Element_Test_Bench/PE_Inst/MAC_Unit_Inst/A_Register" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">A_Register[7:0]</obj_property>
+      <obj_property name="ObjectShortName">A_Register[7:0]</obj_property>
+      <obj_property name="label">MAC A_Register</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processing_Element_Test_Bench/PE_Inst/MAC_Unit_Inst/B_Register" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">B_Register[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B_Register[7:0]</obj_property>
+      <obj_property name="label">MAC B_Register</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processing_Element_Test_Bench/Output_As" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Output_As[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Output_As[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="label">PE Output_As</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processing_Element_Test_Bench/Output_Bs" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Output_Bs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Output_Bs[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="label">PE Output_Bs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processing_Element_Test_Bench/PE_Inst/MAC_Unit_Inst/Product" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Product[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Product[15:0]</obj_property>
+      <obj_property name="label">MAC Product</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processing_Element_Test_Bench/PE_Inst/MAC_Unit_Inst/Accumulator_Register" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Accumulator_Register[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Accumulator_Register[31:0]</obj_property>
+      <obj_property name="label">MAC Accumulator_Register</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processing_Element_Test_Bench/PE_Inst/MAC_Unit_Inst/Output" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Output[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Output[31:0]</obj_property>
+      <obj_property name="label">MAC Output</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processing_Element_Test_Bench/Outputs" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Outputs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Outputs[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="label">PE Outputs</obj_property>
+   </wvobject>
+</wave_config>

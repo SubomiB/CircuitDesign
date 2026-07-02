@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Systolic_Array_Test_Bench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Systolic_Array_Test_Bench" />
+            <top_module name="array_custom_pack" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="920.540 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,001.287 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="141"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/Systolic_Array_Test_Bench/Clocks" type="logic">
+      <obj_property name="ElementShortName">Clocks</obj_property>
+      <obj_property name="ObjectShortName">Clocks</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Systolic_Array_Test_Bench/Resets" type="logic">
+      <obj_property name="ElementShortName">Resets</obj_property>
+      <obj_property name="ObjectShortName">Resets</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Systolic_Array_Test_Bench/Enables" type="logic">
+      <obj_property name="ElementShortName">Enables</obj_property>
+      <obj_property name="ObjectShortName">Enables</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Systolic_Array_Test_Bench/Clear_Accumulators" type="logic">
+      <obj_property name="ElementShortName">Clear_Accumulators</obj_property>
+      <obj_property name="ObjectShortName">Clear_Accumulators</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Systolic_Array_Test_Bench/Input_As" type="array">
+      <obj_property name="ElementShortName">Input_As[0:1][7:0]</obj_property>
+      <obj_property name="ObjectShortName">Input_As[0:1][7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Systolic_Array_Test_Bench/Input_As[0]" type="array">
+         <obj_property name="ElementShortName">[0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Systolic_Array_Test_Bench/Input_As[1]" type="array">
+         <obj_property name="ElementShortName">[1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Systolic_Array_Test_Bench/Input_Bs" type="array">
+      <obj_property name="ElementShortName">Input_Bs[0:1][7:0]</obj_property>
+      <obj_property name="ObjectShortName">Input_Bs[0:1][7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Systolic_Array_Test_Bench/Input_Bs[0]" type="array">
+         <obj_property name="ElementShortName">[0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Systolic_Array_Test_Bench/Input_Bs[1]" type="array">
+         <obj_property name="ElementShortName">[1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Systolic_Array_Test_Bench/Outputs" type="array">
+      <obj_property name="ElementShortName">Outputs[0:1][0:1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">Outputs[0:1][0:1][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Systolic_Array_Test_Bench/Outputs[0]" type="array">
+         <obj_property name="ElementShortName">[0][0:1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][0:1][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/Systolic_Array_Test_Bench/Outputs[0][0]" type="array">
+            <obj_property name="ElementShortName">[0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Systolic_Array_Test_Bench/Outputs[0][1]" type="array">
+            <obj_property name="ElementShortName">[1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/Systolic_Array_Test_Bench/Outputs[1]" type="array">
+         <obj_property name="ElementShortName">[1][0:1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][0:1][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/Systolic_Array_Test_Bench/Outputs[1][0]" type="array">
+            <obj_property name="ElementShortName">[0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Systolic_Array_Test_Bench/Outputs[1][1]" type="array">
+            <obj_property name="ElementShortName">[1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

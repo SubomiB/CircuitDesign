@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Note: All MAC unit tests completed.
+Time: 130 ns  Iteration: 0  Process: /MAC_Unit_Test_Bench/Stimulus  File: C:/Users/ayode/Downloads/Parameterized Matrix Multiply Engine/MAC_Unit/MAC_Unit.srcs/sim_1/new/MAC_Unit_Test_Bench.vhd
+$finish called at time : 130 ns : File "C:/Users/ayode/Downloads/Parameterized Matrix Multiply Engine/MAC_Unit/MAC_Unit.srcs/sim_1/new/MAC_Unit_Test_Bench.vhd" Line 191

@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Processing_Element_Test_Bench_behav" "xil_defaultlib.Processing_Element_Test_Bench" -log "elaborate.log" 

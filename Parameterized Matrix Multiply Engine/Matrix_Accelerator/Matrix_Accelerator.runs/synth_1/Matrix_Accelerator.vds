@@ -1,0 +1,316 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Wed Jul  1 22:37:23 2026
+# Process ID         : 11808
+# Current directory  : C:/Users/ayode/Downloads/Parameterized Matrix Multiply Engine/Matrix_Accelerator/Matrix_Accelerator.runs/synth_1
+# Command line       : vivado.exe -log Matrix_Accelerator.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Matrix_Accelerator.tcl
+# Log file           : C:/Users/ayode/Downloads/Parameterized Matrix Multiply Engine/Matrix_Accelerator/Matrix_Accelerator.runs/synth_1/Matrix_Accelerator.vds
+# Journal file       : C:/Users/ayode/Downloads/Parameterized Matrix Multiply Engine/Matrix_Accelerator/Matrix_Accelerator.runs/synth_1\vivado.jou
+# Running On         : AYODELE
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i5-1345U
+# CPU Frequency      : 2496 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 16815 MB
+# Swap memory        : 1610 MB
+# Total Virtual      : 18426 MB
+# Available Virtual  : 4419 MB
+#-----------------------------------------------------------
+source Matrix_Accelerator.tcl -notrace
+Command: synth_design -top Matrix_Accelerator -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 22408
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1253.234 ; gain = 540.199
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Matrix_Accelerator' [C:/Users/ayode/Downloads/Parameterized Matrix Multiply Engine/Matrix_Accelerator/Matrix_Accelerator.srcs/sources_1/new/Matrix_Accelerator.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'Systolic_Array' [C:/Users/ayode/Downloads/Parameterized Matrix Multiply Engine/Systolic_Array/Systolic_Array.srcs/sources_1/new/Systolic_Array.vhd:48]
+	Parameter Rows bound to: 2 - type: integer 
+	Parameter Cols bound to: 2 - type: integer 
+	Parameter Input_Width bound to: 8 - type: integer 
+	Parameter Accumulator_Width bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'Processing_Element' [C:/Users/ayode/Downloads/Parameterized Matrix Multiply Engine/Processing_Element/Processing_Element.srcs/sources_1/new/Processing_Element.vhd:48]
+	Parameter Input_Width bound to: 8 - type: integer 
+	Parameter Accumulator_Width bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'MAC_Unit' [C:/Users/ayode/Downloads/Parameterized Matrix Multiply Engine/MAC_Unit/MAC_Unit.srcs/sources_1/new/MAC_Unit.vhd:45]
+	Parameter Input_Width bound to: 8 - type: integer 
+	Parameter Accumulator_Width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'MAC_Unit' (0#1) [C:/Users/ayode/Downloads/Parameterized Matrix Multiply Engine/MAC_Unit/MAC_Unit.srcs/sources_1/new/MAC_Unit.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'Processing_Element' (0#1) [C:/Users/ayode/Downloads/Parameterized Matrix Multiply Engine/Processing_Element/Processing_Element.srcs/sources_1/new/Processing_Element.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'Systolic_Array' (0#1) [C:/Users/ayode/Downloads/Parameterized Matrix Multiply Engine/Systolic_Array/Systolic_Array.srcs/sources_1/new/Systolic_Array.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'Matrix_Accelerator' (0#1) [C:/Users/ayode/Downloads/Parameterized Matrix Multiply Engine/Matrix_Accelerator/Matrix_Accelerator.srcs/sources_1/new/Matrix_Accelerator.vhd:54]
+WARNING: [Synth 8-6014] Unused sequential element Gen_A_Row[0].Gen_A_Stage[1].Gen_A_Stage_N.A_Skew_reg[0][1] was removed.  [C:/Users/ayode/Downloads/Parameterized Matrix Multiply Engine/Systolic_Array/Systolic_Array.srcs/sources_1/new/Systolic_Array.vhd:60]
+WARNING: [Synth 8-6014] Unused sequential element Gen_B_col[0].Gen_B_stage[1].Gen_B_Stage_N.B_Skew_reg[0][1] was removed.  [C:/Users/ayode/Downloads/Parameterized Matrix Multiply Engine/Systolic_Array/Systolic_Array.srcs/sources_1/new/Systolic_Array.vhd:86]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1375.605 ; gain = 662.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1375.605 ; gain = 662.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1375.605 ; gain = 662.570
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1375.605 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/ayode/Downloads/Parameterized Matrix Multiply Engine/Matrix_Accelerator/Matrix_Accelerator.srcs/constrs_1/new/ClockPeriod.xdc]
+Finished Parsing XDC File [C:/Users/ayode/Downloads/Parameterized Matrix Multiply Engine/Matrix_Accelerator/Matrix_Accelerator.srcs/constrs_1/new/ClockPeriod.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1455.184 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1455.184 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1455.184 ; gain = 742.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1455.184 ; gain = 742.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1455.184 ; gain = 742.148
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'State_reg' in module 'Matrix_Accelerator'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+                    load |                               01 |                               01
+                   drain |                               10 |                               10
+                   valid |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'State_reg' using encoding 'sequential' in module 'Matrix_Accelerator'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1455.184 ; gain = 742.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 9     
+	                8 Bit    Registers := 18    
++---Muxes : 
+	   4 Input   32 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 8     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 7     
+	   4 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP SA_Inst/Gen_PE_row[0].Gen_PE_col[0].Gen_Left_Edge.Gen_Top_Left.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg, operation Mode is: (P+A*B)'.
+DSP Report: register SA_Inst/Gen_PE_row[0].Gen_PE_col[0].Gen_Left_Edge.Gen_Top_Left.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg is absorbed into DSP SA_Inst/Gen_PE_row[0].Gen_PE_col[0].Gen_Left_Edge.Gen_Top_Left.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg.
+DSP Report: operator SA_Inst/Gen_PE_row[0].Gen_PE_col[0].Gen_Left_Edge.Gen_Top_Left.PE_Inst/MAC_Unit_Inst/Accumulator_Register0 is absorbed into DSP SA_Inst/Gen_PE_row[0].Gen_PE_col[0].Gen_Left_Edge.Gen_Top_Left.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg.
+DSP Report: operator SA_Inst/Gen_PE_row[0].Gen_PE_col[0].Gen_Left_Edge.Gen_Top_Left.PE_Inst/MAC_Unit_Inst/Product is absorbed into DSP SA_Inst/Gen_PE_row[0].Gen_PE_col[0].Gen_Left_Edge.Gen_Top_Left.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg.
+DSP Report: Generating DSP SA_Inst/Gen_PE_row[0].Gen_PE_col[1].Gen_Interior_Col.Gen_Top_Edge.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg, operation Mode is: (P+A2*B2)'.
+DSP Report: register SA_Inst/Gen_B_col[1].Gen_B_stage[1].Gen_B_Stage_N.B_Skew_reg[1][1] is absorbed into DSP SA_Inst/Gen_PE_row[0].Gen_PE_col[1].Gen_Interior_Col.Gen_Top_Edge.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg.
+DSP Report: register SA_Inst/Gen_PE_row[0].Gen_PE_col[0].Gen_Left_Edge.Gen_Top_Left.PE_Inst/A_Forward_reg is absorbed into DSP SA_Inst/Gen_PE_row[0].Gen_PE_col[1].Gen_Interior_Col.Gen_Top_Edge.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg.
+DSP Report: register SA_Inst/Gen_PE_row[0].Gen_PE_col[1].Gen_Interior_Col.Gen_Top_Edge.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg is absorbed into DSP SA_Inst/Gen_PE_row[0].Gen_PE_col[1].Gen_Interior_Col.Gen_Top_Edge.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg.
+DSP Report: operator SA_Inst/Gen_PE_row[0].Gen_PE_col[1].Gen_Interior_Col.Gen_Top_Edge.PE_Inst/MAC_Unit_Inst/Accumulator_Register0 is absorbed into DSP SA_Inst/Gen_PE_row[0].Gen_PE_col[1].Gen_Interior_Col.Gen_Top_Edge.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg.
+DSP Report: operator SA_Inst/Gen_PE_row[0].Gen_PE_col[1].Gen_Interior_Col.Gen_Top_Edge.PE_Inst/MAC_Unit_Inst/Product is absorbed into DSP SA_Inst/Gen_PE_row[0].Gen_PE_col[1].Gen_Interior_Col.Gen_Top_Edge.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg.
+DSP Report: Generating DSP SA_Inst/Gen_PE_row[1].Gen_PE_col[0].Gen_Left_Edge.Gen_Left_Interior.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg, operation Mode is: (P+A2*B2)'.
+DSP Report: register SA_Inst/Gen_PE_row[0].Gen_PE_col[0].Gen_Left_Edge.Gen_Top_Left.PE_Inst/B_Forward_reg is absorbed into DSP SA_Inst/Gen_PE_row[1].Gen_PE_col[0].Gen_Left_Edge.Gen_Left_Interior.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg.
+DSP Report: register SA_Inst/Gen_A_Row[1].Gen_A_Stage[1].Gen_A_Stage_N.A_Skew_reg[1][1] is absorbed into DSP SA_Inst/Gen_PE_row[1].Gen_PE_col[0].Gen_Left_Edge.Gen_Left_Interior.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg.
+DSP Report: register SA_Inst/Gen_PE_row[1].Gen_PE_col[0].Gen_Left_Edge.Gen_Left_Interior.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg is absorbed into DSP SA_Inst/Gen_PE_row[1].Gen_PE_col[0].Gen_Left_Edge.Gen_Left_Interior.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg.
+DSP Report: operator SA_Inst/Gen_PE_row[1].Gen_PE_col[0].Gen_Left_Edge.Gen_Left_Interior.PE_Inst/MAC_Unit_Inst/Accumulator_Register0 is absorbed into DSP SA_Inst/Gen_PE_row[1].Gen_PE_col[0].Gen_Left_Edge.Gen_Left_Interior.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg.
+DSP Report: operator SA_Inst/Gen_PE_row[1].Gen_PE_col[0].Gen_Left_Edge.Gen_Left_Interior.PE_Inst/MAC_Unit_Inst/Product is absorbed into DSP SA_Inst/Gen_PE_row[1].Gen_PE_col[0].Gen_Left_Edge.Gen_Left_Interior.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg.
+DSP Report: Generating DSP SA_Inst/Gen_PE_row[1].Gen_PE_col[1].Gen_Interior_Col.Gen_Interior.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg, operation Mode is: (P+A''*B'')'.
+DSP Report: register SA_Inst/Gen_B_col[1].Gen_B_stage[1].Gen_B_Stage_N.B_Skew_reg[1][1] is absorbed into DSP SA_Inst/Gen_PE_row[1].Gen_PE_col[1].Gen_Interior_Col.Gen_Interior.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg.
+DSP Report: register SA_Inst/Gen_A_Row[1].Gen_A_Stage[1].Gen_A_Stage_N.A_Skew_reg[1][1] is absorbed into DSP SA_Inst/Gen_PE_row[1].Gen_PE_col[1].Gen_Interior_Col.Gen_Interior.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg.
+DSP Report: register SA_Inst/Gen_PE_row[1].Gen_PE_col[0].Gen_Left_Edge.Gen_Left_Interior.PE_Inst/A_Forward_reg is absorbed into DSP SA_Inst/Gen_PE_row[1].Gen_PE_col[1].Gen_Interior_Col.Gen_Interior.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg.
+DSP Report: register SA_Inst/Gen_PE_row[0].Gen_PE_col[1].Gen_Interior_Col.Gen_Top_Edge.PE_Inst/B_Forward_reg is absorbed into DSP SA_Inst/Gen_PE_row[1].Gen_PE_col[1].Gen_Interior_Col.Gen_Interior.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg.
+DSP Report: register SA_Inst/Gen_PE_row[1].Gen_PE_col[1].Gen_Interior_Col.Gen_Interior.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg is absorbed into DSP SA_Inst/Gen_PE_row[1].Gen_PE_col[1].Gen_Interior_Col.Gen_Interior.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg.
+DSP Report: operator SA_Inst/Gen_PE_row[1].Gen_PE_col[1].Gen_Interior_Col.Gen_Interior.PE_Inst/MAC_Unit_Inst/Accumulator_Register0 is absorbed into DSP SA_Inst/Gen_PE_row[1].Gen_PE_col[1].Gen_Interior_Col.Gen_Interior.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg.
+DSP Report: operator SA_Inst/Gen_PE_row[1].Gen_PE_col[1].Gen_Interior_Col.Gen_Interior.PE_Inst/MAC_Unit_Inst/Product is absorbed into DSP SA_Inst/Gen_PE_row[1].Gen_PE_col[1].Gen_Interior_Col.Gen_Interior.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1455.184 ; gain = 742.148
+---------------------------------------------------------------------------------
+ Sort Area is  SA_Inst/Gen_PE_row[1].Gen_PE_col[1].Gen_Interior_Col.Gen_Interior.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg_5 : 0 0 : 630 630 : Used 1 time 100
+ Sort Area is  SA_Inst/Gen_PE_row[0].Gen_PE_col[1].Gen_Interior_Col.Gen_Top_Edge.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg_2 : 0 0 : 614 614 : Used 1 time 100
+ Sort Area is  SA_Inst/Gen_PE_row[1].Gen_PE_col[0].Gen_Left_Edge.Gen_Left_Interior.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg_4 : 0 0 : 614 614 : Used 1 time 100
+ Sort Area is  SA_Inst/Gen_PE_row[0].Gen_PE_col[0].Gen_Left_Edge.Gen_Top_Left.PE_Inst/MAC_Unit_Inst/Accumulator_Register_reg_0 : 0 0 : 598 598 : Used 1 time 100
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++-------------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name        | DSP Mapping  | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-------------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|MAC_Unit           | (P+A*B)'     | 8      | 8      | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|Matrix_Accelerator | (P+A2*B2)'   | 8      | 8      | -      | -      | 32     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|Matrix_Accelerator | (P+A2*B2)'   | 8      | 8      | -      | -      | 32     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|Matrix_Accelerator | (P+A''*B'')' | 8      | 8      | -      | -      | 32     | 2    | 2    | -    | -    | -     | 0    | 1    | 
++-------------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1613.492 ; gain = 900.457
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1638.328 ; gain = 925.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1638.328 ; gain = 925.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1875.871 ; gain = 1162.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1875.871 ; gain = 1162.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1875.871 ; gain = 1162.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1875.871 ; gain = 1162.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1875.871 ; gain = 1162.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1875.871 ; gain = 1162.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++-------------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name        | DSP Mapping  | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-------------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|MAC_Unit           | (P+A*B)'     | 30     | 18     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|Matrix_Accelerator | (P+A'*B')'   | 30     | 18     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|Matrix_Accelerator | (P+A'*B')'   | 30     | 18     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|Matrix_Accelerator | (P+A''*B'')' | 30     | 18     | -      | -      | 32     | 2    | 2    | -    | -    | -     | 0    | 1    | 
++-------------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |CARRY4  |     8|
+|3     |DSP48E1 |     4|
+|6     |LUT2    |     6|
+|7     |LUT3    |    11|
+|8     |LUT4    |     7|
+|9     |LUT5    |    33|
+|10    |LUT6    |    36|
+|11    |FDRE    |   226|
+|12    |IBUF    |    25|
+|13    |OBUF    |   129|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1875.871 ; gain = 1162.836
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 1875.871 ; gain = 1083.258
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1875.871 ; gain = 1162.836
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1885.039 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1887.707 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: b86dc0ef
+INFO: [Common 17-83] Releasing license: Synthesis
+24 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1887.707 ; gain = 1360.957
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1887.707 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ayode/Downloads/Parameterized Matrix Multiply Engine/Matrix_Accelerator/Matrix_Accelerator.runs/synth_1/Matrix_Accelerator.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file Matrix_Accelerator_utilization_synth.rpt -pb Matrix_Accelerator_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Jul  1 22:37:59 2026...

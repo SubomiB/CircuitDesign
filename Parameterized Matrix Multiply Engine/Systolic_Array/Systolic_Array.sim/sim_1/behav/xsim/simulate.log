@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Note: All Systolic Array tests completed.
+Time: 150 ns  Iteration: 0  Process: /Systolic_Array_Test_Bench/Stim_Proc  File: C:/Users/ayode/Downloads/Parameterized Matrix Multiply Engine/Systolic_Array/Systolic_Array.srcs/sim_1/new/Systolic_Array_Test_Bench.vhd
+$finish called at time : 150 ns : File "C:/Users/ayode/Downloads/Parameterized Matrix Multiply Engine/Systolic_Array/Systolic_Array.srcs/sim_1/new/Systolic_Array_Test_Bench.vhd" Line 189

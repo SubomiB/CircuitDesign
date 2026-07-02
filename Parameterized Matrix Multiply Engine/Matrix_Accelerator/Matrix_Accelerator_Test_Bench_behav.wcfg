@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Matrix_Accelerator_Test_Bench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Matrix_Accelerator_Test_Bench" />
+            <top_module name="array_custom_pack" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="175.001 ns"></ZoomEndTime>
+      <Cursor1Time time="175.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="131"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/Matrix_Accelerator_Test_Bench/Clocks" type="logic">
+      <obj_property name="ElementShortName">Clocks</obj_property>
+      <obj_property name="ObjectShortName">Clocks</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Matrix_Accelerator_Test_Bench/Resets" type="logic">
+      <obj_property name="ElementShortName">Resets</obj_property>
+      <obj_property name="ObjectShortName">Resets</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Matrix_Accelerator_Test_Bench/A_Write_Ens" type="logic">
+      <obj_property name="ElementShortName">A_Write_Ens</obj_property>
+      <obj_property name="ObjectShortName">A_Write_Ens</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Matrix_Accelerator_Test_Bench/A_Write_Rows" type="other">
+      <obj_property name="ElementShortName">A_Write_Rows</obj_property>
+      <obj_property name="ObjectShortName">A_Write_Rows</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Matrix_Accelerator_Test_Bench/A_Write_Cols" type="other">
+      <obj_property name="ElementShortName">A_Write_Cols</obj_property>
+      <obj_property name="ObjectShortName">A_Write_Cols</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Matrix_Accelerator_Test_Bench/A_Write_Datas" type="array">
+      <obj_property name="ElementShortName">A_Write_Datas[7:0]</obj_property>
+      <obj_property name="ObjectShortName">A_Write_Datas[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Matrix_Accelerator_Test_Bench/B_Write_Ens" type="logic">
+      <obj_property name="ElementShortName">B_Write_Ens</obj_property>
+      <obj_property name="ObjectShortName">B_Write_Ens</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Matrix_Accelerator_Test_Bench/B_Write_Rows" type="other">
+      <obj_property name="ElementShortName">B_Write_Rows</obj_property>
+      <obj_property name="ObjectShortName">B_Write_Rows</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Matrix_Accelerator_Test_Bench/B_Write_Cols" type="other">
+      <obj_property name="ElementShortName">B_Write_Cols</obj_property>
+      <obj_property name="ObjectShortName">B_Write_Cols</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Matrix_Accelerator_Test_Bench/B_Write_Datas" type="array">
+      <obj_property name="ElementShortName">B_Write_Datas[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B_Write_Datas[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Matrix_Accelerator_Test_Bench/Outputs" type="array">
+      <obj_property name="ElementShortName">Outputs[0:1][0:1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">Outputs[0:1][0:1][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Matrix_Accelerator_Test_Bench/Starts" type="logic">
+      <obj_property name="ElementShortName">Starts</obj_property>
+      <obj_property name="ObjectShortName">Starts</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Matrix_Accelerator_Test_Bench/Dones" type="logic">
+      <obj_property name="ElementShortName">Dones</obj_property>
+      <obj_property name="ObjectShortName">Dones</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Note: All Matrix Accelerator tests completed.
+Time: 175 ns  Iteration: 0  Process: /Matrix_Accelerator_Test_Bench/Stim_Proc  File: C:/Users/ayode/Downloads/Parameterized Matrix Multiply Engine/Matrix_Accelerator/Matrix_Accelerator.srcs/sim_1/new/Matrix_Accelerator_Test_Bench.vhd
+$finish called at time : 175 ns : File "C:/Users/ayode/Downloads/Parameterized Matrix Multiply Engine/Matrix_Accelerator/Matrix_Accelerator.srcs/sim_1/new/Matrix_Accelerator_Test_Bench.vhd" Line 166

@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl2008 xil_defaultlib  \
+"../../../../../Systolic_Array/Systolic_Array.srcs/sources_1/new/Array_Custom_Pack.vhd" \
+"../../../../../MAC_Unit/MAC_Unit.srcs/sources_1/new/MAC_Unit.vhd" \
+"../../../../../Processing_Element/Processing_Element.srcs/sources_1/new/Processing_Element.vhd" \
+"../../../../../Systolic_Array/Systolic_Array.srcs/sources_1/new/Systolic_Array.vhd" \
+"../../../../Matrix_Accelerator.srcs/sources_1/new/Matrix_Accelerator.vhd" \
+"../../../../Matrix_Accelerator.srcs/sim_1/new/Matrix_Accelerator_Test_Bench.vhd" \
+
+# Do not sort compile order
+nosort

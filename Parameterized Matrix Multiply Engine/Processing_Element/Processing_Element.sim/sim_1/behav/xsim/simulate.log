@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Note: All Processing Element tests completed.
+Time: 140 ns  Iteration: 0  Process: /Processing_Element_Test_Bench/Stimulus  File: C:/Users/ayode/Downloads/Parameterized Matrix Multiply Engine/Processing_Element/Processing_Element.srcs/sim_1/new/Processing_Element_Test_Bench.vhd
+$finish called at time : 140 ns : File "C:/Users/ayode/Downloads/Parameterized Matrix Multiply Engine/Processing_Element/Processing_Element.srcs/sim_1/new/Processing_Element_Test_Bench.vhd" Line 252

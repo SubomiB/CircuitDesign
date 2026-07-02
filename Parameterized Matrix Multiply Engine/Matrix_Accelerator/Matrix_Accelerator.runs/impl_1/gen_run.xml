@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1782963487">
+  <File Type="PA-TCL" Name="Matrix_Accelerator.tcl"/>
+  <File Type="REPORTS-TCL" Name="Matrix_Accelerator_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="Matrix_Accelerator_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="Matrix_Accelerator_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Matrix_Accelerator_drc_opted.rpt"/>
+  <File Type="OPT-UTIL" Name="Matrix_Accelerator_utilization_opted.rpt"/>
+  <File Type="OPT-UTIL-PB" Name="Matrix_Accelerator_utilization_opted.pb"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Matrix_Accelerator_methodology_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Matrix_Accelerator.hwdef"/>
+  <File Type="OPT-TIMING" Name="Matrix_Accelerator_timing_summary_opted.rpt"/>
+  <File Type="OPT-RQA-PB" Name="Matrix_Accelerator_rqa_opted.pb"/>
+  <File Type="PWROPT-DCP" Name="Matrix_Accelerator_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Matrix_Accelerator_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Matrix_Accelerator_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Matrix_Accelerator_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Matrix_Accelerator_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Matrix_Accelerator_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Matrix_Accelerator_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Matrix_Accelerator_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Matrix_Accelerator_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Matrix_Accelerator_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Matrix_Accelerator_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Matrix_Accelerator_timing_summary_placed.rpt"/>
+  <File Type="PLACE-RQA-PB" Name="Matrix_Accelerator_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Matrix_Accelerator_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Matrix_Accelerator_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Matrix_Accelerator_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Matrix_Accelerator_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="Matrix_Accelerator_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Matrix_Accelerator_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Matrix_Accelerator_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Matrix_Accelerator_routed_bb.dcp"/>
+  <File Type="ROUTE-UTIL" Name="Matrix_Accelerator_utilization_routed.rpt"/>
+  <File Type="ROUTE-UTIL-PB" Name="Matrix_Accelerator_utilization_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="Matrix_Accelerator_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Matrix_Accelerator_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Matrix_Accelerator_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Matrix_Accelerator_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Matrix_Accelerator_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Matrix_Accelerator_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Matrix_Accelerator_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="Matrix_Accelerator_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Matrix_Accelerator_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Matrix_Accelerator_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Matrix_Accelerator_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Matrix_Accelerator_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Matrix_Accelerator_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Matrix_Accelerator_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Matrix_Accelerator_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Matrix_Accelerator_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Matrix_Accelerator_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Matrix_Accelerator_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Matrix_Accelerator_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-RQS-PB" Name="Matrix_Accelerator_rqs_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Matrix_Accelerator_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Matrix_Accelerator_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Matrix_Accelerator_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Matrix_Accelerator_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Matrix_Accelerator_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Matrix_Accelerator_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Matrix_Accelerator_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Matrix_Accelerator_bus_skew_postroute_physopted.rpx"/>
+  <File Type="NOC_TRAFFIC_SPEC_FILE" Name="Matrix_Accelerator.nts"/>
+  <File Type="NOC_SOLUTION_FILE" Name="Matrix_Accelerator.ncr"/>
+  <File Type="BG-BIT" Name="Matrix_Accelerator.bit"/>
+  <File Type="BG-BIN" Name="Matrix_Accelerator.bin"/>
+  <File Type="BITSTR-MSK" Name="Matrix_Accelerator.msk"/>
+  <File Type="BITSTR-RBT" Name="Matrix_Accelerator.rbt"/>
+  <File Type="BITSTR-NKY" Name="Matrix_Accelerator.nky"/>
+  <File Type="BITSTR-BMM" Name="Matrix_Accelerator_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Matrix_Accelerator.mmi"/>
+  <File Type="PDI-FILE" Name="Matrix_Accelerator.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="Matrix_Accelerator_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="Matrix_Accelerator_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="Matrix_Accelerator.rcfi"/>
+  <File Type="CFI_FILE" Name="Matrix_Accelerator.cfi"/>
+  <File Type="RNPI_FILE" Name="Matrix_Accelerator.rnpi"/>
+  <File Type="RCDO-FILE" Name="Matrix_Accelerator.rcdo"/>
+  <File Type="MARKER-RNPI-FILE" Name="Matrix_Accelerator_markers.rnpi"/>
+  <File Type="MARKER-RCDO-FILE" Name="Matrix_Accelerator_markers.rcdo"/>
+  <File Type="BOOT_RNPI_FILE" Name="Matrix_Accelerator_boot.rnpi"/>
+  <File Type="BOOT_MARKER_RNPI_FILE" Name="Matrix_Accelerator_boot_markers.rnpi"/>
+  <File Type="PL_RNPI_FILE" Name="Matrix_Accelerator_pld.rnpi"/>
+  <File Type="PL_MARKER_RNPI_FILE" Name="Matrix_Accelerator_pld_markers.rnpi"/>
+  <File Type="PL_MASK_RNPI_FILE" Name="Matrix_Accelerator_pld_mask.rnpi"/>
+  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="Matrix_Accelerator_pld_shutdown.rnpi"/>
+  <File Type="PL_UNMASK_RNPI_FILE" Name="Matrix_Accelerator_pld_unmask.rnpi"/>
+  <File Type="PL-RCDO-FILE" Name="Matrix_Accelerator_pld.rcdo"/>
+  <File Type="PL-CLEAR-RCDO-FILE" Name="Matrix_Accelerator_pld_clear.rcdo"/>
+  <File Type="PL_MARKER_RCDO_FILE" Name="Matrix_Accelerator_pld_markers.rcdo"/>
+  <File Type="PL_MASK_RCDO_FILE" Name="Matrix_Accelerator_pld_mask.rcdo"/>
+  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="Matrix_Accelerator_pld_unmask_markers.rcdo"/>
+  <File Type="PL_UNMASK_RCDO_FILE" Name="Matrix_Accelerator_pld_unmask.rcdo"/>
+  <File Type="NPI_FILE" Name="Matrix_Accelerator.npi"/>
+  <File Type="RBD_FILE" Name="Matrix_Accelerator.rbd"/>
+  <File Type="MMI-FILE" Name="Matrix_Accelerator.mmi"/>
+  <File Type="BIF-FILE" Name="Matrix_Accelerator.bif"/>
+  <File Type="BOOT-BIF-FILE" Name="Matrix_Accelerator_boot.bif"/>
+  <File Type="PL-BIF-FILE" Name="Matrix_Accelerator_pld.bif"/>
+  <File Type="LTX-FILE" Name="Matrix_Accelerator.ltx"/>
+  <File Type="BOOT-LTX-FILE" Name="Matrix_Accelerator_boot.ltx"/>
+  <File Type="PL-LTX-FILE" Name="Matrix_Accelerator_pld.ltx"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Matrix_Accelerator.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Matrix_Accelerator.sysdef"/>
+  <File Type="BG-BGN" Name="Matrix_Accelerator.bgn"/>
+  <File Type="BG-DRC" Name="Matrix_Accelerator.drc"/>
+  <File Type="RDI-RDI" Name="Matrix_Accelerator.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="Matrix_Accelerator_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Matrix_Accelerator_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../Systolic_Array/Systolic_Array.srcs/sources_1/new/Array_Custom_Pack.vhd">
+      <FileInfo SFType="VHDL2008">
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../MAC_Unit/MAC_Unit.srcs/sources_1/new/MAC_Unit.vhd">
+      <FileInfo SFType="VHDL2008">
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Processing_Element/Processing_Element.srcs/sources_1/new/Processing_Element.vhd">
+      <FileInfo SFType="VHDL2008">
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Systolic_Array/Systolic_Array.srcs/sources_1/new/Systolic_Array.vhd">
+      <FileInfo SFType="VHDL2008">
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Matrix_Accelerator.vhd">
+      <FileInfo SFType="VHDL2008">
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Matrix_Accelerator"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/ClockPeriod.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/ClockPeriod.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2025">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
